@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:the_app/pages/home_page.dart';
 import 'package:the_app/pages/signin_page.dart';
 
 void main() {
@@ -7,12 +8,14 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+  static const String title = "Welcome to AFM!";
 
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -25,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const SignInPage(),
+      home: const HomePage(),
     );
   }
 }
