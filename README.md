@@ -8,7 +8,7 @@ For the current app we are using firebase, and  we will be using the bible api f
 
 Contribution:
 
-the project is an open source. However  currently I am working with Precious Myemane an ex classmate from WTC which ive added to my contributors  on this
+the project is an open source. However  currently I am working with Precious Myemane a former classmate from WTC which I've added to my contributors  on this
 project.
 
 How to install and Run the Project:
